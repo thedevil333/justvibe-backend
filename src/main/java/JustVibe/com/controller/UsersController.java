@@ -26,6 +26,11 @@ public class UsersController {
 	{
 		return UM.addUser(U);
 	}
+	@GetMapping("/")
+	public String value(){
+		return "hello world";
+	}
+	
 	
 	@PostMapping("/signin")
 	public String signIn(@RequestBody Users U)

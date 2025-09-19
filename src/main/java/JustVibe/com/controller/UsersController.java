@@ -26,7 +26,7 @@ public class UsersController {
 	{
 		return UM.addUser(U);
 	}
-	@GetMapping("/")
+	@GetMapping("")
 	public String value(){
 		return "hello world";
 	}
